@@ -48,3 +48,13 @@ private:
         int imediato;
         int funcao;
 };
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif

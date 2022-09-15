@@ -6,13 +6,13 @@ using namespace std;
 BancoDeRegistradores::BancoDeRegistradores(){
 	int i = 0;
 	while(i < QUANTIDADE_REGISTRADORES){
-		this->registradores[i] = 0
+		this->registradores[i] = 0;
 		i++;
 	}
 }
 
 //não sei o que esse destructor precisa fazer!!! 
-virtual BancoDeRegistradores::~BancoDeRegistradores(){
+BancoDeRegistradores::~BancoDeRegistradores(){
 	cout << "BancoDeRegistradores destruido" << endl;
 }
 

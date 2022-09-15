@@ -18,3 +18,5 @@ public:
 private:
 	int registradores[QUANTIDADE_REGISTRADORES];
 };
+
+#endif
