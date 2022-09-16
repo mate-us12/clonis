@@ -6,7 +6,7 @@ using namespace std;
 BancoDeRegistradores::BancoDeRegistradores(){
 	int i = 0;
 	while(i < QUANTIDADE_REGISTRADORES){
-		this::registradores[i] = 0
+		this->registradores[i] = 0
 		i++;
 	}
 }
