@@ -7,6 +7,10 @@
 using namespace std;
 
 class BancoDeRegistradores{
+
+private:
+	int registradores[QUANTIDADE_REGISTRADORES];
+
 public:
 
 	BancoDeRegistradores();
@@ -14,7 +18,6 @@ public:
 	int getValor(int registrador);
 	void setValor(int registrador, int valor);
 	void imprimir();
-
-private:
-	int registradores[QUANTIDADE_REGISTRADORES];
 };
+
+#endif

@@ -1,7 +1,6 @@
 #include "Dado.h"
 #include <iostream>
 
-
 using namespace std;
 
 Dado::Dado(int valor){

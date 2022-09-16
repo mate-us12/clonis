@@ -6,7 +6,7 @@ using namespace std;
 BancoDeRegistradores::BancoDeRegistradores(){
 	int i = 0;
 	while(i < QUANTIDADE_REGISTRADORES){
-		this->registradores[i] = 0
+		this::registradores[i] = 0
 		i++;
 	}
 }
@@ -21,10 +21,10 @@ int BancoDeRegistradores::getValor(int registrador){
 }
 
 void BancoDeRegistradores::setValor(int registrador, int valor){
-//	if (registrador == 0 )
+//	if (registrador == 0)
 //		cout << "Erro: registrador 0 deve possuir o valor 0!" << endl;
 //	else
-		this->registradores[registrador] = valor;
+	this->registradores[registrador] = valor;
 }
 
 void BancoDeRegistradores::imprimir(){

@@ -34,3 +34,6 @@ int Instrucao::getImediato(){
 int Instrucao::getFuncao(){
 	return this->funcao;
 }
+
+
+//Implementar código das instruções!
