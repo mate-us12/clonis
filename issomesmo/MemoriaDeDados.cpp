@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-MemoriaDeDados(int tamanho){
+MemoriaDeDados::MemoriaDeDados(int tamanho){
 	int i = 0;
 	this->tamanho = tamanho;
 	this->mem = new Dado*[tamanho];
@@ -14,7 +14,7 @@ MemoriaDeDados(int tamanho){
 }
 
 
-virtual ~MemoriaDeDados(){
+MemoriaDeDados::~MemoriaDeDados(){
 	int i = 0;
 	while(i < this->tamanho){
 		delete this->mem[i];
@@ -22,15 +22,15 @@ virtual ~MemoriaDeDados(){
 	delete this->mem;
 }
 
-int getTamanho(){
+int MemoriaDeDados::getTamanho(){
 	return this->tamanho;
 }
 
-Dado* ler(int posicao){
+Dado* MemoriaDeDados::ler(int posicao){
 	return this->mem[posicao];
 }	
 
-bool escrever(int posicao, Dado* d){
+bool MemoriaDeDados::escrever(int posicao, Dado* d){
 	if(posicao >= 0 && posicao < this->tamanho){
 		this->mem[posicao] = d;
 		return true;
@@ -40,7 +40,7 @@ bool escrever(int posicao, Dado* d){
 }
 
 
-void imprimir(){
+void MemoriaDeDados::imprimir(){
 	while(i < this->tamanho){
 		if(this->mem[i]->valor == NULL)
 			cout << "i:  -" << endl;

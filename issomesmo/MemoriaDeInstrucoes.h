@@ -5,7 +5,8 @@ using namespace std;
 class MemoriaDeInstrucoes{
 
 private:
-
+	int tamanho = 0;
+	Instrucao** mem = NULL;
 
 public:
 
