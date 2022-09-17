@@ -12,8 +12,8 @@ Instrucao::Instrucao(int opcode, int origem1, int origem2, int destino, int imed
 	this->funcao = funcao;
 }
 
-virtual Instrucao::~Instrucao(){
- cout << "Instrucao Destruida" << endl;
+Instrucao::~Instrucao(){
+	cout << "Instrucao Destruida" << endl;
 }
 
 int Instrucao::getOpcode(){

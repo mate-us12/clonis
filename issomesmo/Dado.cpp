@@ -7,7 +7,7 @@ Dado::Dado(int valor){
 	this->valor = valor;
 }
 
-virtual Dado::~Dado(){
+Dado::~Dado(){
 	cout << "Dado Destruido" << endl;
 }
 

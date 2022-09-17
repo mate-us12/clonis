@@ -1,12 +1,11 @@
-#include "Dado.h"
+#include "Instrucao.h"
 #include <iostream>
 using namespace std;
 
 class MemoriaDeInstrucoes{
 
 private:
-	Dado* mem = NULL;
-	int tamanho = 0;
+
 
 public:
 
