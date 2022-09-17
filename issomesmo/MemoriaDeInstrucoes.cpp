@@ -1,4 +1,4 @@
-#include "MemoriaDeInstrucoes"
+#include "MemoriaDeInstrucoes.h"
 #include <iostream>
 using namespace std;
 
