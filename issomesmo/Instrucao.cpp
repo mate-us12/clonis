@@ -36,4 +36,3 @@ int Instrucao::getFuncao(){
 }
 
 
-//Implementar código das instruções!
